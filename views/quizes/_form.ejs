@@ -1,0 +1,17 @@
+<input type="text" id="preg" name="quiz[pregunta]" placeholder="Pregunta" value =<% if (quiz.pregunta == 'Pregunta') {%> "" <% } else { %>
+  "<%= quiz.pregunta %>" <% } %>/><p>
+
+<input type="text" id="resp" name="quiz[respuesta]" placeholder="Respuesta" value =<% if (quiz.respuesta == 'Respuesta') {%> "" <% } else { %>
+  "<%= quiz.respuesta %>" <% } %>/><p>
+
+<select name="quiz[tema]" id="tema" value="<%= quiz.tema %>">
+<option value="" disabled selected>Seleciona tu tema</option>
+<option name="Geografía" value="Geografía">Geografía</option>
+<option name="Religión" value="Religión">Religión</option>
+<option name="Ocio" value="Ocio">Ocio</option>
+<option name="Ciencia" value="Ciencia">Ciencia</option>
+<option name="Tecnología" value="Tecnología">Tecnología</option>
+</select></br></br>
+
+<a href="/quizes"><button type="button">Cancelar</button></a>
+<input type="submit" value="Salvar">
