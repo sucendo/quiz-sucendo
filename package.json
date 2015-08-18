@@ -30,17 +30,17 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaresSaucedo/quiz.git"
+    "url": "git+https://github.com/Sucendo/quiz.git"
   },
   "keywords": [
-    "MaresSaucedo"
+    "Sucendo"
   ],
-  "author": "Mares",
+  "author": "Sucendo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MaresSaucedo/quiz/issues"
+    "url": "https://github.com/Sucendo/quiz/issues"
   },
-  "homepage": "https://github.com/MaresSaucedo/quiz#readme",
+  "homepage": "https://github.com/Sucendo/quiz#readme",
   "description": ""
 }
 
